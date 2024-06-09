@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -19,7 +20,9 @@ body {
   background: white;
   width: 480px;
   border-radius: 10px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  display: flex;
 }
 
 .icon {
@@ -66,4 +69,24 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.warning {
+  width: 10%;
+  padding-right: 0.5rem;
+  /* box-sizing: border-box; */
+}
+.message {
+  width: 90%;
+}
+
+.message-head {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-between;
+}
+
+.message-body {
+  margin-bottom: 0.7em;
+  margin-top: 0.3em;
 }
